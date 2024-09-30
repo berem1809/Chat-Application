@@ -1,3 +1,17 @@
-.chatList{
+.ChatList{
+    .search{
+        display:flex;
+        align-items:center;
+        gap:20px;
+        padding:20px;
     
-}
+        .searchBar{
+            flex:1;
+            background-color:rgba(38, 137, 137, 0.197);
+            display:flex;
+            align-items:center;
+            gap:20px;
+            border-radius: 10px;
+        }
+    }
+    }
